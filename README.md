@@ -1,4 +1,4 @@
-# the-bank-challenge
+# the-bank-job
 
 You have been hired by the owner of a international bank. They have many services that they offer to the public:
 
