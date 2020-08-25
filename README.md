@@ -36,3 +36,9 @@ You have been hired by the owner of a international bank. They have many service
 * React or HBS
 * Node w/ Express
 * MongoDB or SQL
+
+## Installation instructions
+
+```
+npm i // for all dependencies to be installed
+```
