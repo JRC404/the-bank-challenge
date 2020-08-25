@@ -4,6 +4,7 @@ You have been hired by the owner of a international bank. They have many service
 
 * Current Accounts
 * Savings Accounts **(No overdraft facility)**
+* Joint Accounts **with an already existing customer**
 * Junior Accounts **(No overdraft facility)**
 * Mortgages **(Minimum 10-year contract)**
 * Interest-Loans **(Low interest)**
