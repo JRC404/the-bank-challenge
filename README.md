@@ -4,7 +4,7 @@
 
 Welcome, junior developers! You’ve been hired by a very important client—a prestigious international bank. No pressure, right? 🏦 Your job? Build their entire customer-facing system, including everything from signing up for accounts to handling mortgages. 
 
-But before you even start cracking the code, **Git** is your new best friend. Use it religiously—branches, issues, commits—the whole shebang. Oh, and don't forget your design toolkit—**Figma**—is a must before typing a single line of code. Ready to dive in? Let’s get to work!
+But before you even start cracking the code, **Git** is your new best friend. Use it religiously; branches, issues, commits, the whole shebang. Oh, and don't forget your design toolkit **Figma** is a must before typing a single line of code. Ready to dive in? Let’s get to work!
 
 ---
 
