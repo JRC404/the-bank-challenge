@@ -1,69 +1,107 @@
-# the-bank-job
+# The Bank Job
 
-Before we even start, Git is essential in this project. It must be used throughout with branches, issues etc. Figma is essential for design, it must be used before coding.
+### Ready to pull off the ultimate bank heist... of coding skills? 💼💻
 
-You have been hired by the owner of a international bank. They have many services that they offer to the public:
+Welcome, junior developers! You’ve been hired by a very important client—a prestigious international bank. No pressure, right? 🏦 Your job? Build their entire customer-facing system, including everything from signing up for accounts to handling mortgages. 
 
-* Current Accounts
-* Savings Accounts **(No overdraft facility)**
-* Joint Accounts **with an already existing customer**
-* Junior Accounts **(No overdraft facility)**
-* Mortgages **(Minimum 10-year contract)**
-* Interest-Loans **(Low interest)**
-* Payday-Loans **(scandalously high interest)**
-***
-## Things to think about
+But before you even start cracking the code, **Git** is your new best friend. Use it religiously—branches, issues, commits—the whole shebang. Oh, and don't forget your design toolkit—**Figma**—is a must before typing a single line of code. Ready to dive in? Let’s get to work!
 
-1. A customer may want to select one or multiple options when signing up. They will be assigned a customer number and an **account number** with a **sort code** for each account that they take out
-2. They need to be able to withdraw, deposit, check their balance, change their pin number for the accounts that they have access to
-3. An overdraft will add interest for each day that it is active. You can choose the interest rates
-4. A junior account can be taken out in a child's name but will be associated with an adult current / savings account. It cannot be opened on its own.
-5. An interest-loan / payday-loan can only be taken out if they have a current or savings account.
-6. Hashing passwords
-7. Sessions (security restrictions)
-8. Error handling
-9. User interface / Experience
-10. Testing
-11. Documentation (User guide / walkthrough && readme)
-12. Deployment via Heroku
+---
 
-***
-## The customer
+## The Bank Services 🏦💳
 
-* The customer should be able to signup for one / multiple accounts with the bank, if they so wish. The process of signing them up will take the usual details down, all fabricated, of course. Upon registration, the customer will be assigned a customer number and will be asked to save a password related to the customer number with a security question. 
+Here’s what this fictional bank offers:
 
-* The customer can forget their password and use the **password reset** feature which will ask them for their customer number and 2 of the following: 
-  * DOB
-  * first line of address and postcode
-  * security question
-  
-* The customer, upon signing in, will be presented with their accounts in a bitesize display. If they wish to see activity on a particular account, they can access that by clicking on the account they'd like to see. 
+- **Current Accounts**
+- **Savings Accounts** (No overdraft)
+- **Joint Accounts** (Only available with an existing customer)
+- **Junior Accounts** (No overdraft, linked to an adult’s account)
+- **Mortgages** (Minimum term: 10 years)
+- **Interest-Loans** (Low interest rates)
+- **Payday-Loans** (Brace yourself for scandalous interest rates)
 
-***
-## The Admin portal
-* Approve / Deny / Send back account status
-* Approval of overdraft
-* View accounts and details
-* Mortgage approval / deny etc.
-* Delete / Modify accounts
-* Lock accounts (suspicious activity etc.)
-* Report on new customers, finances, etc.
+---
 
-## Technologies needed: 
+## Key Features to Implement 🚀
 
-* Vanilla JS
-* React
-* Node w/ Express
-* SQL
+Your project should include the following functionality:
 
-## Readme && instructions
+1. **Customer Registration & Account Creation**
+   - Customers can sign up for one or multiple accounts.
+   - Each customer is assigned a **customer number**, and each account receives an **account number** and **sort code**.
+   
+2. **Account Features**
+   - Customers can:
+     - **Deposit** and **withdraw** funds.
+     - **Check balances**.
+     - **Change their PIN** for any of their accounts.
+   - **Overdrafts** will accrue interest daily (you decide the rates).
 
-* Description
-* Goals and aims
-* Contributors
-* Technology used
+3. **Junior Accounts**
+   - Must be linked to an adult's current or savings account. These accounts can’t exist on their own.
 
-```
-npm i // for all dependencies to be installed
-any .env variables
-```
+4. **Loans**
+   - Customers can only apply for **interest loans** or **payday loans** if they have a current or savings account.
+
+5. **Security**
+   - Passwords must be **hashed**.
+   - Implement **sessions** to manage secure login access.
+
+6. **Additional Requirements**
+   - **Error handling** for all user actions.
+   - **User-friendly interface** and smooth user experience.
+   - **Testing** for key functionality.
+   - **Documentation**: Create both a **User Guide** and a thorough **README**.
+   - **Deploy the project** on Heroku.
+
+---
+
+## The Customer Experience 🧑‍💻
+
+Once registered, customers can:
+
+- Sign up for one or more accounts with basic details (fabricated for this project).
+- Get a **customer number**, create a password, and set a security question.
+- Use the **password reset** feature if needed (via customer number + DOB, address, or security question).
+- Log in to view a **summary of their accounts**. Each account should have a clickable link to view more details or recent activity.
+
+---
+
+## The Admin Portal 🛠️
+
+Admins should have a powerful control center to:
+
+- **Approve/deny** new accounts and **overdrafts**.
+- **Review** account details and statuses.
+- **Approve/deny mortgages**.
+- **Modify/delete accounts**.
+- **Lock accounts** due to suspicious activity.
+- Generate reports on **new customers** and **financial summaries**.
+
+---
+
+## Tech Stack 🛠️
+
+To build this system, you'll use:
+
+- **Vanilla JavaScript** for the client-side
+- **React** for a dynamic UI
+- **Node.js with Express** for the backend
+- **SQL** for the database
+
+---
+
+## Project Setup & Documentation 📄
+
+Make sure to include a **README** that covers:
+
+- A brief **description** of the project.
+- The **goals and aims** of the application.
+- The **contributor(s)**.
+- A list of the **technologies** used.
+
+To get up and running:
+
+```bash
+npm install  // To install all dependencies
+// Include any required .env variables here
